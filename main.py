@@ -1,4 +1,4 @@
-"""# MISSAO 1
+# MISSAO 1
 
 def verificar_aprovacao (nota):
     if  nota >= 6 :
@@ -48,7 +48,6 @@ B = int(input("Insira outro número inteiro:"))
 soma = A+B
 print(f"A soma é", soma)
 
-
 # MISSAO 5
 
 def verificar_senha (senha) :
@@ -60,7 +59,6 @@ def verificar_senha (senha) :
 senha = input("Insira a senha:")
 print(f"{verificar_senha(senha)}")
 
-
 # MISSAO 6
 
 contador = 1
@@ -68,7 +66,30 @@ while contador <= 10:
     print(contador)
     contador += 1
 
-"""
-
 # MISSAO 7
 
+numeros = [8, 3, 10, 1, 5]
+numeros.sort()
+print("Números organizados:", numeros)
+
+# MISSAO 8
+
+alunos = ("Ana", "Bruno", "Carla", "Daniel", "Eduardo")
+print("Primeiro aluno:", alunos[0])
+print("Último aluno:", alunos[-1])
+
+# MISSAO 9
+
+def dobrar (numero) :
+    return numero * 2
+
+numero = int(input("Insira um número inteiro:"))
+print("O dobro é", dobrar(numero))
+
+# MISSAO 10 
+
+def contar_letras(nome):
+    return f"O nome {nome} tem {len(nome)} letras."
+
+nome = input("Digite um nome: ")
+print(contar_letras(nome))
